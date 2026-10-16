@@ -25,34 +25,13 @@ const projects = [
     blurb: "Turn intentions into sacred geometry with 7 planetary kamea. Dynamic SVG sigils, save/search/tag dictionary, Firestore sync with Firebase Auth, planetary-hour responsive theming.",
     stack: ["HTML/CSS/JS", "Firebase", "Firestore", "SunCalc"],
     tags: ["web"], badge: "Esoteric engineering",
-    repo: "#", demo: "https://jessiemarie.me"
+    repo: "https://github.com/jessie-marie", demo: "#"
   },
   {
     emoji: "🔮", title: "Astrology Engine",
     blurb: "Birth-chart / natal / transit PHP endpoints backed by a Python + kerykeion generation pipeline. Offline cache demos in v_01/cache for fast UI iteration without external APIs.",
     stack: ["PHP 8", "Python", "kerykeion"],
-    tags: ["web", "data"], badge: "API + engine",
-    repo: "#", demo: "#"
-  },
-  {
-    emoji: "🎧", title: "Spotify Scrobbler → Airtable",
-    blurb: "Daily automation: scrapes yesterday's Last.fm scrobbles and logs them to Airtable in batches of 10. Runs headless via Windows Task Scheduler — set it and forget it.",
-    stack: ["Python", "Last.fm API", "Airtable"],
-    tags: ["automation", "data"], badge: "Automation",
-    repo: "#", demo: "#"
-  },
-  {
-    emoji: "📶", title: "Wi-Fi Heal",
-    blurb: "Self-healing Wi-Fi for Windows: Event ID 8003 trigger auto-restarts the adapter after a settle window, logs to ProgramData. One-click admin installer included.",
-    stack: ["PowerShell", "Task Scheduler"],
-    tags: ["automation"], badge: "Systems",
-    repo: "#", demo: "#"
-  },
-  {
-    emoji: "📓", title: "DA Notebooks & Playlist Analysis",
-    blurb: "Data-acquisition experiments: coordinate-grid rendering from published tables (letters.ipynb) and Spotify playlist scraping/analysis (wok.csv + notebooks) with pandas + BeautifulSoup.",
-    stack: ["Python", "pandas", "BeautifulSoup"],
-    tags: ["data"], badge: "Notebooks",
+    tags: ["web"], badge: "API + engine",
     repo: "#", demo: "#"
   }
 ];

@@ -1,6 +1,6 @@
 # ✨ The Elarion Collective
 
-> *Where mysticism meets modern engineering — games, dashboards, automations & sacred tools.*
+> *Where mysticism meets modern engineering — games, dashboards & sacred tools.*
 
 A curated portfolio of builds by **Jessie Marie** — indie hacker, creative technologist, and founder of The Elarion Collective (DBA, soon LLC).
 
@@ -17,15 +17,12 @@ A curated portfolio of builds by **Jessie Marie** — indie hacker, creative tec
 | 🚂 **Railroad Museum Scavenger Hunt** | Mobile-first museum adventure — game cards, badges, teams, share, map & donate flows | HTML, Bootstrap 5, Vanilla JS, PHP |
 | 🪐 **Planetary Sigil Generator** | Turn intentions into sacred geometry via 7 planetary kamea, SVG sigils, personal dictionary + Firestore sync, planetary-hour theming | HTML/CSS/JS, Firebase Auth + Firestore, SunCalc |
 | 🔮 **Astrology Engine** | Birth-chart / natal / transit PHP endpoints + Python (kerykeion) generation pipeline, offline cache demos | PHP 8, Python, kerykeion |
-| 🎧 **Spotify Scrobbler → Airtable** | Daily Last.fm → Airtable logger via Windows Task Scheduler | Python, Last.fm API, Airtable API |
-| 📶 **Wi-Fi Heal** | Self-healing Wi-Fi: Event-ID-8003 scheduled task auto-restarts adapter, logs to ProgramData | PowerShell, Task Scheduler |
-| 📓 **DA Notebooks** | Data-acquisition & grid experiments (letters.ipynb, wok playlist analysis) | Python, pandas, BeautifulSoup |
 
 ---
 
 ## 🛠 Tech Toolbox
 
-`JavaScript` `PHP` `Python` `HTML5 Canvas` `Vite` `Firebase` `Firestore` `Capacitor` `Square API` `SQLite` `MySQL` `Bootstrap` `Chart.js` `PowerShell` `pandas` `Airtable` `Last.fm` `SunCalc`
+`JavaScript` `PHP` `Python` `HTML5 Canvas` `Vite` `Firebase` `Firestore` `Capacitor` `Square API` `SQLite` `MySQL` `Bootstrap` `Chart.js` `kerykeion` `SunCalc`
 
 ---
 
@@ -61,7 +58,7 @@ Each project card on the site links to its repo folder / live demo. Update links
 
 ## 💌 Contact
 
-- 🌐 https://jessiemarie.me
+- 🐙 https://github.com/jessie-marie
 - 💼 The Elarion Collective — *unregistered DBA, converting to LLC with revenue*
 
 ---
