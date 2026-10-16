@@ -1,0 +1,68 @@
+# ✨ The Elarion Collective
+
+> *Where mysticism meets modern engineering — games, dashboards, automations & sacred tools.*
+
+A curated portfolio of builds by **Jessie Marie** — indie hacker, creative technologist, and founder of The Elarion Collective (DBA, soon LLC).
+
+**Live site:** deploy this repo to [Netlify](https://netlify.com) or [GitHub Pages](https://pages.github.com) — see [DEPLOY.md](./DEPLOY.md).
+
+---
+
+## 🌟 Featured Work
+
+| Project | What it is | Stack |
+|---|---|---|
+| 🧙 **Witch's Hollow** | Idle witch-hunt defense game — canvas engine, dual-currency economy, mastery milestones, bosses every 10 waves, procedural Web Audio, Firebase Google SSO, Capacitor Android-ready | JS ES Modules, Canvas, Vite, Firebase Auth, Capacitor |
+| 💇 **Monarch Crossings Dashboard** | Salon revenue analytics — Square OAuth + webhooks, revenue KPIs (7/30/60/90d), Chart.js trends, demo → SQLite → MySQL pipeline | PHP 8, SQLite/MySQL, Square API, Bootstrap 5, Chart.js |
+| 🚂 **Railroad Museum Scavenger Hunt** | Mobile-first museum adventure — game cards, badges, teams, share, map & donate flows | HTML, Bootstrap 5, Vanilla JS, PHP |
+| 🪐 **Planetary Sigil Generator** | Turn intentions into sacred geometry via 7 planetary kamea, SVG sigils, personal dictionary + Firestore sync, planetary-hour theming | HTML/CSS/JS, Firebase Auth + Firestore, SunCalc |
+| 🔮 **Astrology Engine** | Birth-chart / natal / transit PHP endpoints + Python (kerykeion) generation pipeline, offline cache demos | PHP 8, Python, kerykeion |
+| 🎧 **Spotify Scrobbler → Airtable** | Daily Last.fm → Airtable logger via Windows Task Scheduler | Python, Last.fm API, Airtable API |
+| 📶 **Wi-Fi Heal** | Self-healing Wi-Fi: Event-ID-8003 scheduled task auto-restarts adapter, logs to ProgramData | PowerShell, Task Scheduler |
+| 📓 **DA Notebooks** | Data-acquisition & grid experiments (letters.ipynb, wok playlist analysis) | Python, pandas, BeautifulSoup |
+
+---
+
+## 🛠 Tech Toolbox
+
+`JavaScript` `PHP` `Python` `HTML5 Canvas` `Vite` `Firebase` `Firestore` `Capacitor` `Square API` `SQLite` `MySQL` `Bootstrap` `Chart.js` `PowerShell` `pandas` `Airtable` `Last.fm` `SunCalc`
+
+---
+
+## 🚀 Quickstart
+
+```bash
+# preview locally
+npx serve .
+# or
+python -m http.server 8000
+# open http://localhost:8000
+```
+
+Each project card on the site links to its repo folder / live demo. Update links in `index.html` + `assets/script.js` as you publish repos.
+
+---
+
+## 📁 Repo layout
+
+```
+./
+├── index.html          # portfolio site (works on GitHub Pages + Netlify, no build step)
+├── assets/
+│   ├── styles.css
+│   └── script.js
+├── README.md           # you are here (GitHub profile-worthy standard readme)
+├── DEPLOY.md           # deploy to Netlify + GitHub Pages
+├── netlify.toml        # Netlify config (publish = .)
+└── .nojekyll           # lets GitHub Pages serve assets as-is
+```
+
+---
+
+## 💌 Contact
+
+- 🌐 https://jessiemarie.me
+- 💼 The Elarion Collective — *unregistered DBA, converting to LLC with revenue*
+
+---
+<p align="center"><i>Built with devotion. Use it, fork it, remix it — but honor the flame. 🔥</i></p>

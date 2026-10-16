@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Elarion Collective — Jessie Marie | Portfolio</title>
+<meta name="description" content="The Elarion Collective — games, dashboards, automations & sacred tools by Jessie Marie. Witch's Hollow, Monarch Crossings, Railroad Museum Scavenger Hunt, Planetary Sigil Generator, Astrology Engine & more." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="nav">
+  <a class="brand" href="#top">✨ The Elarion Collective</a>
+  <nav>
+    <a href="#work">Work</a>
+    <a href="#toolbox">Toolbox</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="btn small">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="eyebrow">Games · Dashboards · Automations · Sacred Tools</p>
+    <h1>Where mysticism<br/>meets <span class="gold">modern engineering.</span></h1>
+    <p class="lede">Hi, I'm <strong>Jessie Marie</strong> — indie hacker & founder of <strong>The Elarion Collective</strong> (DBA, soon LLC). I build playable, shippable things: an idle defense game, a salon revenue dashboard, a museum scavenger hunt, planetary sigil tech, astrology APIs, and quiet little automations that just keep working.</p>
+    <div class="cta-row">
+      <a class="btn" href="#work">Explore the work ↓</a>
+      <a class="btn ghost" href="https://jessiemarie.me" target="_blank" rel="noopener">jessiemarie.me</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>8</strong><span>projects showcased</span></div>
+      <div><strong>5</strong><span>languages / runtimes</span></div>
+      <div><strong>2</strong><span>free hosts ready (Pages + Netlify)</span></div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="section-head">
+      <h2>Featured work</h2>
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="game">Games</button>
+        <button class="chip" data-filter="dashboard">Dashboards</button>
+        <button class="chip" data-filter="web">Web apps</button>
+        <button class="chip" data-filter="automation">Automations</button>
+        <button class="chip" data-filter="data">Data</button>
+      </div>
+    </div>
+    <div class="grid" id="project-grid"><!-- rendered by script.js --></div>
+  </section>
+
+  <section id="toolbox" class="section">
+    <h2>Tech toolbox</h2>
+    <div class="tags">
+      <span>JavaScript ES Modules</span><span>HTML5 Canvas</span><span>Vite</span><span>Firebase Auth</span><span>Firestore</span><span>Capacitor (Android)</span><span>PHP 8</span><span>Square API</span><span>SQLite</span><span>MySQL</span><span>Bootstrap 5</span><span>Chart.js</span><span>Python</span><span>pandas</span><span>BeautifulSoup</span><span>kerykeion</span><span>PowerShell</span><span>Airtable</span><span>Last.fm API</span><span>SunCalc</span>
+    </div>
+  </section>
+
+  <section id="about" class="section two-col">
+    <div>
+      <h2>About the Collective</h2>
+      <p>The Elarion Collective is currently an unregistered DBA becoming an LLC as revenue arrives. It houses client work (like the Monarch Crossings salon dashboard), public-good builds (like the Railroad Museum scavenger hunt), games (Witch's Hollow), and esoteric engineering (sigils, astrology).</p>
+      <p>Everything here is built to ship: mobile-responsive, offline-friendly where it counts, and deployable to free static hosting.</p>
+    </div>
+    <div class="card highlight">
+      <h3>What I do best</h3>
+      <ul>
+        <li>🎮 Canvas game engines & idle-game economies</li>
+        <li>📊 Small-business dashboards (Square → KPIs)</li>
+        <li>🏛️ Mobile-first experiences for real-world venues</li>
+        <li>🔮 Esoteric + creative coding (kamea, charts, sigils)</li>
+        <li>🤖 Boring automations that save real mornings</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section center">
+    <h2>Let's build something enchanted.</h2>
+    <p>Freelance dashboards, games, museum interactives & automations — open for work under The Elarion Collective.</p>
+    <div class="cta-row center">
+      <a class="btn" href="https://jessiemarie.me" target="_blank" rel="noopener">Visit jessiemarie.me</a>
+      <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub (link your profile here)</a>
+    </div>
+    <p class="tiny">To wire this site to your repos: edit <code>assets/script.js</code> → set each project's <code>repo</code> + <code>demo</code> URL, then push. See <code>DEPLOY.md</code>.</p>
+  </section>
+</main>
+
+<footer>
+  <p>✨ The Elarion Collective · Built with devotion — use it, fork it, remix it, but honor the flame. 🔥</p>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
