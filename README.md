@@ -19,15 +19,18 @@ A curated portfolio of builds by **Jessie Marie** — creative technologist and 
 | 🔮 **Astrology Engine** | Birth-chart / natal / transit PHP endpoints + Python (kerykeion) generation pipeline, offline cache demos | PHP 8, Python, kerykeion | — |
 | 🏨 **Hospitality Startup** *(anon case study)* | Company database, business automations, no-code app (with design team), day-to-day CRM ops | Database Design, Adalo, Automations, CRM | *details on request* |
 | 🐉 **Wellness Practice** *(anon case study)* | Website + CRM build, co-created community event | Web Design, CRM Setup, Events | *details on request* |
-| 🤝 **48in48** *(volunteering)* | Volunteer web builds for nonprofits in a weekend sprint | WordPress, Web Design | [48in48.org](https://48in48.org) |
+| 🤝 **48in48** *(volunteering)* | 3 weekend sprints — WordPress dev on 2 nonprofit builds, PM on the 3rd | WordPress, Project Management | [48in48.org](https://48in48.org) |
 
 ---
 
 ## 🎓 Education & Credentials
 
 - **ITIL Foundation** — IT service management best practices.
-- **Coursera / IBM-aligned coursework** — cloud-native development, DevOps & agile, React, Node/Express, Python microservices + databases. Representative repos on [GitHub](https://github.com/jessie-marie?tab=repositories).
-- **AI & applied data coursework** — Python NLP, embeddings, sentiment analysis & evaluation. *(Send exact cert titles/issuers/dates and I'll list them precisely.)*
+- **Full Stack Cloud Developer** (Coursera · IBM) — cloud-native development, DevOps & agile, React, Node/Express, Python microservices + databases. Representative repos on [GitHub](https://github.com/jessie-marie?tab=repositories).
+- **Google IT Support Professional Certificate** (Coursera · Google) — troubleshooting, systems administration, networking, security.
+- **Python for Everybody Specialization** (Coursera · Michigan) — Python, data structures, web scraping, SQL databases, visualization.
+- **Full Stack Developer Certificate** (edX) — front-end through back-end, databases, deployment.
+- **Notion Essentials Badge** — docs, databases, workspace organization.
 
 ---
 

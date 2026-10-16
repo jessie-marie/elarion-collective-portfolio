@@ -50,8 +50,8 @@ const projects = [
   },
   {
     emoji: "🤝", title: "48in48 — Websites for Nonprofits",
-    blurb: "Volunteer web developer with 48in48: design and build (or rebuild) a nonprofit's website in a single weekend sprint, side-by-side with designers, copywriters, and fellow devs. Real sites, real deadlines, real impact.",
-    stack: ["WordPress", "Web Design", "Volunteering"],
+    blurb: "Three weekend sprints with 48in48: WordPress developer on two nonprofit site builds, project manager on the third — leading designers, copywriters, and devs to ship real sites in 48 hours.",
+    stack: ["WordPress", "Project Management", "Volunteering"],
     tags: ["volunteering", "web"], badge: "Volunteering",
     repo: null, demo: "https://48in48.org"
   }
