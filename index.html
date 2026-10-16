@@ -130,13 +130,55 @@
     </div>
   </section>
 
-  <section id="contact" class="section center">
-    <h2>Let's talk about your project.</h2>
-    <p>Whether it's a dashboard that finally answers the question, a CRM that fits how you actually work, or a web experience your visitors remember — I'd love to hear what you're building.</p>
-    <p class="tiny">Currently booking new projects. I reply to every serious inquiry.</p>
-    <div class="cta-row center">
-      <a class="btn" href="https://github.com/jessie-marie" target="_blank" rel="noopener">Start the conversation →</a>
-    </div>
+  <section id="contact" class="section">
+    <h2 class="center">Let's talk about your project.</h2>
+    <p class="center" style="max-width:60ch;margin:0 auto;">Whether it's a dashboard that finally answers the question, a CRM that fits how you actually work, or a web experience your visitors remember — I'd love to hear what you're building.</p>
+    <p class="tiny center">Currently booking new projects. I reply to every serious inquiry.</p>
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html" class="contact-form">
+      <input type="hidden" name="form-name" value="contact" />
+      <p class="hidden-field"><label>Don't fill this out: <input name="bot-field" /></label></p>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="type">What do you need?</label>
+          <select id="type" name="project-type">
+            <option>Dashboard / reporting</option>
+            <option>CRM / database / automations</option>
+            <option>Website / web app</option>
+            <option>Game / interactive experience</option>
+            <option>Nonprofit build (48in48-style)</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="budget">Budget range</label>
+          <select id="budget" name="budget">
+            <option>Under $1k</option>
+            <option>$1k – $3k</option>
+            <option>$3k – $10k</option>
+            <option>$10k+</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Tell me about the project</label>
+        <textarea id="message" name="message" rows="5" placeholder="What are you trying to build, and what does success look like?" required></textarea>
+      </div>
+      <div class="cta-row center">
+        <button type="submit" class="btn">Send it →</button>
+      </div>
+      <p class="tiny center">Prefer email? <a href="mailto:jmstewart0717@gmail.com">jmstewart0717@gmail.com</a></p>
+    </form>
   </section>
 </main>
 
