@@ -18,14 +18,14 @@ const projects = [
     blurb: "Mobile-first museum adventure with game cards, badges, teams, share, map & donate flows. Built for real visitors on real phones — big tap targets, Bootstrap modals, PHP save endpoint.",
     stack: ["HTML", "Bootstrap 5", "Vanilla JS", "PHP"],
     tags: ["web"], badge: "Public good",
-    repo: "#", demo: "#"
+    repo: "https://github.com/jessie-marie/rrmuseum", repoLabel: "GitHub", demo: null
   },
   {
     emoji: "🪐", title: "Planetary Sigil Generator",
     blurb: "Turn intentions into sacred geometry with 7 planetary kamea. Dynamic SVG sigils, save/search/tag dictionary, Firestore sync with Firebase Auth, planetary-hour responsive theming.",
     stack: ["HTML/CSS/JS", "Firebase", "Firestore", "SunCalc"],
     tags: ["web"], badge: "Esoteric engineering",
-    repo: "https://github.com/jessie-marie", demo: "#"
+    repo: "https://github.com/jessie-marie/Planetary-Sigil-Generator", repoLabel: "GitHub", demo: null
   },
   {
     emoji: "🔮", title: "Astrology Engine",
@@ -35,14 +35,14 @@ const projects = [
     repo: "#", demo: "#"
   },
   {
-    emoji: "🏨", title: "Loyalty Untapped — Hospitality Tech Startup",
-    blurb: "Anonymous case study: designed and built the company database, wired core business automations, shipped an Adalo mobile app in collaboration with the design team, and ran day-to-day CRM operations for a hospitality loyalty startup.",
+    emoji: "🏨", title: "Hospitality Startup — Database, App & CRM",
+    blurb: "Anonymous case study: designed and built the company database, wired core business automations, shipped a no-code mobile app in collaboration with the design team, and ran day-to-day CRM operations for a hospitality loyalty startup.",
     stack: ["Database Design", "Adalo", "Automations", "CRM Ops"],
     tags: ["case-study", "dashboard"], badge: "Case study · Startup",
     repo: null, demo: null
   },
   {
-    emoji: "🐉", title: "Illumination Dragon — Wellness Coach",
+    emoji: "🌿", title: "Wellness Practice — Website, CRM & Launch Event",
     blurb: "Anonymous case study: designed and built a wellness coach's website and CRM from scratch, then co-created and co-hosted a community event to launch her local presence.",
     stack: ["Web Design", "CRM Setup", "Community Events"],
     tags: ["case-study", "web"], badge: "Case study · Solo practitioner",
@@ -58,10 +58,11 @@ function render(filter = "all") {
     .forEach(p => {
       const el = document.createElement("article");
       el.className = "card";
-      const links = (p.repo || p.demo)
+      const hasLinks = (p.repo && p.repo !== "#") || (p.demo && p.demo !== "#");
+      const links = hasLinks
         ? `<div class="card-links">
-          ${p.demo ? `<a class="primary" href="${p.demo}" target="_blank" rel="noopener">Live demo</a>` : ""}
-          ${p.repo ? `<a href="${p.repo}" target="_blank" rel="noopener">Repo</a>` : ""}
+          ${p.demo && p.demo !== "#" ? `<a class="primary" href="${p.demo}" target="_blank" rel="noopener">Live demo</a>` : ""}
+          ${p.repo && p.repo !== "#" ? `<a href="${p.repo}" target="_blank" rel="noopener">${p.repoLabel || "Repo"}</a>` : ""}
         </div>`
         : `<div class="card-links"><span class="note">No public source — details on request</span></div>`;
       el.innerHTML = `

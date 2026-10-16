@@ -18,7 +18,7 @@ This is a **static site, no build step**. Both hosts below are free.
 
 ## You can use BOTH
 
-Push once to GitHub, connect the same repo to Netlify, and enable Pages — same code, two free URLs. Point `jessiemarie.me` at whichever you prefer later.
+Push once to GitHub, connect the same repo to Netlify, and enable Pages — same code, two free URLs. Point a custom domain at whichever you prefer later.
 
 ## Wiring project links
 

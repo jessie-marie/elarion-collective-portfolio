@@ -2,7 +2,7 @@
 
 > *Where mysticism meets modern engineering — games, dashboards, client work & sacred tools.*
 
-A curated portfolio of builds by **Jessie Marie** — indie hacker, creative technologist, and founder of The Elarion Collective (DBA, soon LLC).
+A curated portfolio of builds by **Jessie Marie** — creative technologist and founder of The Elarion Collective.
 
 **Live site:** deploy this repo to [Netlify](https://netlify.com) or [GitHub Pages](https://pages.github.com) — see [DEPLOY.md](./DEPLOY.md).
 
@@ -14,11 +14,19 @@ A curated portfolio of builds by **Jessie Marie** — indie hacker, creative tec
 |---|---|---|
 | 🧙 **Witch's Hollow** | Idle witch-hunt defense game — canvas engine, dual-currency economy, mastery milestones, bosses every 10 waves, procedural Web Audio, Firebase Google SSO, Capacitor Android-ready | JS ES Modules, Canvas, Vite, Firebase Auth, Capacitor |
 | 💇 **Monarch Crossings Dashboard** | Salon revenue analytics — Square OAuth + webhooks, revenue KPIs (7/30/60/90d), Chart.js trends, demo → SQLite → MySQL pipeline | PHP 8, SQLite/MySQL, Square API, Bootstrap 5, Chart.js |
-| 🚂 **Railroad Museum Scavenger Hunt** | Mobile-first museum adventure — game cards, badges, teams, share, map & donate flows | HTML, Bootstrap 5, Vanilla JS, PHP |
-| 🪐 **Planetary Sigil Generator** | Turn intentions into sacred geometry via 7 planetary kamea, SVG sigils, personal dictionary + Firestore sync, planetary-hour theming | HTML/CSS/JS, Firebase Auth + Firestore, SunCalc |
-| 🔮 **Astrology Engine** | Birth-chart / natal / transit PHP endpoints + Python (kerykeion) generation pipeline, offline cache demos | PHP 8, Python, kerykeion |
-| 🏨 **Loyalty Untapped** *(anon case study — hospitality tech startup)* | Company database, business automations, Adalo app (with design team), day-to-day CRM ops | Database Design, Adalo, Automations, CRM |
-| 🐉 **Illumination Dragon** *(anon case study — wellness coach)* | Website + CRM build, co-created community event | Web Design, CRM Setup, Events |
+| 🚂 **Railroad Museum Scavenger Hunt** | Mobile-first museum adventure — game cards, badges, teams, share, map & donate flows | HTML, Bootstrap 5, Vanilla JS, PHP | [GitHub](https://github.com/jessie-marie/rrmuseum) |
+| 🪐 **Planetary Sigil Generator** | Turn intentions into sacred geometry via 7 planetary kamea, SVG sigils, personal dictionary + Firestore sync, planetary-hour theming | HTML/CSS/JS, Firebase Auth + Firestore, SunCalc | [GitHub](https://github.com/jessie-marie/Planetary-Sigil-Generator) |
+| 🔮 **Astrology Engine** | Birth-chart / natal / transit PHP endpoints + Python (kerykeion) generation pipeline, offline cache demos | PHP 8, Python, kerykeion | — |
+| 🏨 **Hospitality Startup** *(anon case study)* | Company database, business automations, no-code app (with design team), day-to-day CRM ops | Database Design, Adalo, Automations, CRM | *details on request* |
+| 🐉 **Wellness Practice** *(anon case study)* | Website + CRM build, co-created community event | Web Design, CRM Setup, Events | *details on request* |
+
+---
+
+## 🎓 Education & Credentials
+
+- **ITIL Foundation** — IT service management best practices.
+- **Coursera / IBM-aligned coursework** — cloud-native development, DevOps & agile, React, Node/Express, Python microservices + databases. Representative repos on [GitHub](https://github.com/jessie-marie?tab=repositories).
+- **AI & applied data coursework** — Python NLP, embeddings, sentiment analysis & evaluation. *(Send exact cert titles/issuers/dates and I'll list them precisely.)*
 
 ---
 
@@ -61,7 +69,7 @@ Each project card on the site links to its repo folder / live demo. Update links
 ## 💌 Contact
 
 - 🐙 https://github.com/jessie-marie
-- 💼 The Elarion Collective — *unregistered DBA, converting to LLC with revenue*
+- 💼 The Elarion Collective — *independent practice*
 
 ---
 <p align="center"><i>Built with devotion. Use it, fork it, remix it — but honor the flame. 🔥</i></p>
