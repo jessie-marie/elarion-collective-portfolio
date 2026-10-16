@@ -47,6 +47,13 @@ const projects = [
     stack: ["Web Design", "CRM Setup", "Community Events"],
     tags: ["case-study", "web"], badge: "Case study · Solo practitioner",
     repo: null, demo: null
+  },
+  {
+    emoji: "🤝", title: "48in48 — Websites for Nonprofits",
+    blurb: "Volunteer web developer with 48in48: design and build (or rebuild) a nonprofit's website in a single weekend sprint, side-by-side with designers, copywriters, and fellow devs. Real sites, real deadlines, real impact.",
+    stack: ["WordPress", "Web Design", "Volunteering"],
+    tags: ["volunteering", "web"], badge: "Volunteering",
+    repo: null, demo: "https://48in48.org"
   }
 ];
 

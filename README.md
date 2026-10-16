@@ -19,6 +19,7 @@ A curated portfolio of builds by **Jessie Marie** — creative technologist and 
 | 🔮 **Astrology Engine** | Birth-chart / natal / transit PHP endpoints + Python (kerykeion) generation pipeline, offline cache demos | PHP 8, Python, kerykeion | — |
 | 🏨 **Hospitality Startup** *(anon case study)* | Company database, business automations, no-code app (with design team), day-to-day CRM ops | Database Design, Adalo, Automations, CRM | *details on request* |
 | 🐉 **Wellness Practice** *(anon case study)* | Website + CRM build, co-created community event | Web Design, CRM Setup, Events | *details on request* |
+| 🤝 **48in48** *(volunteering)* | Volunteer web builds for nonprofits in a weekend sprint | WordPress, Web Design | [48in48.org](https://48in48.org) |
 
 ---
 
@@ -32,7 +33,7 @@ A curated portfolio of builds by **Jessie Marie** — creative technologist and 
 
 ## 🛠 Tech Toolbox
 
-`JavaScript` `PHP` `Python` `HTML5 Canvas` `Vite` `Firebase` `Firestore` `Capacitor` `Square API` `SQLite` `MySQL` `Bootstrap` `Chart.js` `kerykeion` `SunCalc` `Adalo` `CRM Ops` `Database Design`
+`JavaScript` `PHP` `Python` `HTML5 Canvas` `Vite` `Firebase` `Firestore` `Capacitor` `Square API` `SQLite` `MySQL` `Bootstrap` `Chart.js` `kerykeion` `SunCalc` `Adalo` `CRM Ops` `Database Design` `WordPress`
 
 ---
 
