@@ -46,6 +46,7 @@ main{max-width:1080px;margin:0 auto;padding:0 1.4rem 3rem}
 .card-links{margin-top:auto;display:flex;gap:.6rem;padding-top:.6rem}
 .card-links a{font-size:.86rem;font-weight:700;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.42rem .85rem;color:var(--ink);background:rgba(255,255,255,.05)}
 .card-links a.primary{background:var(--ink);color:#14101f;border-color:var(--ink)}
+.card-links .note{font-size:.85rem;color:var(--muted);font-style:italic;border:1px dashed var(--line);border-radius:999px;padding:.42rem .85rem}
 .badge{align-self:flex-start;font-size:.7rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);border:1px solid rgba(240,180,41,.45);padding:.2rem .6rem;border-radius:999px;background:rgba(240,180,41,.1)}
 .tags{display:flex;flex-wrap:wrap;gap:.5rem}
 .tags span{border:1px solid var(--line);background:rgba(255,255,255,.04);border-radius:999px;padding:.42rem .8rem;font-size:.86rem;color:var(--muted)}

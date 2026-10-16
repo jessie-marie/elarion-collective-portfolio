@@ -33,6 +33,20 @@ const projects = [
     stack: ["PHP 8", "Python", "kerykeion"],
     tags: ["web"], badge: "API + engine",
     repo: "#", demo: "#"
+  },
+  {
+    emoji: "🏨", title: "Loyalty Untapped — Hospitality Tech Startup",
+    blurb: "Anonymous case study: designed and built the company database, wired core business automations, shipped an Adalo mobile app in collaboration with the design team, and ran day-to-day CRM operations for a hospitality loyalty startup.",
+    stack: ["Database Design", "Adalo", "Automations", "CRM Ops"],
+    tags: ["case-study", "dashboard"], badge: "Case study · Startup",
+    repo: null, demo: null
+  },
+  {
+    emoji: "🐉", title: "Illumination Dragon — Wellness Coach",
+    blurb: "Anonymous case study: designed and built a wellness coach's website and CRM from scratch, then co-created and co-hosted a community event to launch her local presence.",
+    stack: ["Web Design", "CRM Setup", "Community Events"],
+    tags: ["case-study", "web"], badge: "Case study · Solo practitioner",
+    repo: null, demo: null
   }
 ];
 
@@ -44,16 +58,19 @@ function render(filter = "all") {
     .forEach(p => {
       const el = document.createElement("article");
       el.className = "card";
+      const links = (p.repo || p.demo)
+        ? `<div class="card-links">
+          ${p.demo ? `<a class="primary" href="${p.demo}" target="_blank" rel="noopener">Live demo</a>` : ""}
+          ${p.repo ? `<a href="${p.repo}" target="_blank" rel="noopener">Repo</a>` : ""}
+        </div>`
+        : `<div class="card-links"><span class="note">No public source — details on request</span></div>`;
       el.innerHTML = `
         <span class="badge">${p.badge}</span>
         <div class="emoji">${p.emoji}</div>
         <h3>${p.title}</h3>
         <p>${p.blurb}</p>
         <div class="stack">${p.stack.map(s => `<span>${s}</span>`).join("")}</div>
-        <div class="card-links">
-          <a class="primary" href="${p.demo}" target="_blank" rel="noopener">Live demo</a>
-          <a href="${p.repo}" target="_blank" rel="noopener">Repo</a>
-        </div>`;
+        ${links}`;
       grid.appendChild(el);
     });
 }

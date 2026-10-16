@@ -1,6 +1,6 @@
 # ✨ The Elarion Collective
 
-> *Where mysticism meets modern engineering — games, dashboards & sacred tools.*
+> *Where mysticism meets modern engineering — games, dashboards, client work & sacred tools.*
 
 A curated portfolio of builds by **Jessie Marie** — indie hacker, creative technologist, and founder of The Elarion Collective (DBA, soon LLC).
 
@@ -17,12 +17,14 @@ A curated portfolio of builds by **Jessie Marie** — indie hacker, creative tec
 | 🚂 **Railroad Museum Scavenger Hunt** | Mobile-first museum adventure — game cards, badges, teams, share, map & donate flows | HTML, Bootstrap 5, Vanilla JS, PHP |
 | 🪐 **Planetary Sigil Generator** | Turn intentions into sacred geometry via 7 planetary kamea, SVG sigils, personal dictionary + Firestore sync, planetary-hour theming | HTML/CSS/JS, Firebase Auth + Firestore, SunCalc |
 | 🔮 **Astrology Engine** | Birth-chart / natal / transit PHP endpoints + Python (kerykeion) generation pipeline, offline cache demos | PHP 8, Python, kerykeion |
+| 🏨 **Loyalty Untapped** *(anon case study — hospitality tech startup)* | Company database, business automations, Adalo app (with design team), day-to-day CRM ops | Database Design, Adalo, Automations, CRM |
+| 🐉 **Illumination Dragon** *(anon case study — wellness coach)* | Website + CRM build, co-created community event | Web Design, CRM Setup, Events |
 
 ---
 
 ## 🛠 Tech Toolbox
 
-`JavaScript` `PHP` `Python` `HTML5 Canvas` `Vite` `Firebase` `Firestore` `Capacitor` `Square API` `SQLite` `MySQL` `Bootstrap` `Chart.js` `kerykeion` `SunCalc`
+`JavaScript` `PHP` `Python` `HTML5 Canvas` `Vite` `Firebase` `Firestore` `Capacitor` `Square API` `SQLite` `MySQL` `Bootstrap` `Chart.js` `kerykeion` `SunCalc` `Adalo` `CRM Ops` `Database Design`
 
 ---
 
