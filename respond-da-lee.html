@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Respond to Your Quote — Da-Lee Residential Clean & Lawn Care LLC</title>
+<meta name="description" content="Accept your website quote or ask a question." />
+<meta name="robots" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css" />
+<style>
+  .quote-wrap{max-width:760px;margin:0 auto;padding:0 1.4rem 4rem}
+  .toggle-row{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin:1.2rem 0}
+  .toggle-btn{padding:1rem;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);font:inherit;font-weight:700;cursor:pointer;text-align:center}
+  .toggle-btn.active{background:linear-gradient(135deg,var(--gold),#ff7a59);color:#1a1206;border-color:transparent;box-shadow:0 8px 30px rgba(240,180,41,.35)}
+  .toggle-btn small{display:block;font-weight:500;font-size:.82rem;opacity:.85;margin-top:.2rem}
+  .accept-only{display:none}
+  .accept-only.show{display:block}
+  @media(max-width:640px){.toggle-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="nav">
+  <a class="brand" href="/">✨ The Elarion Collective</a>
+  <nav><a href="/quote-da-lee.html">← Back to your quote</a></nav>
+</header>
+<main class="quote-wrap">
+  <section style="padding:3rem 0 1rem;text-align:center;">
+    <p class="eyebrow">Da-Lee Residential Clean & Lawn Care LLC</p>
+    <h1>Accept, tweak, <span class="gold">or just ask.</span></h1>
+    <p class="lede" style="margin:0 auto;">Pick whichever fits — an acceptance kicks things off, a question just starts the conversation.</p>
+    <p class="tiny" style="margin-top:1rem;">More comfortable elsewhere? <a href="mailto:jmstewart0717@gmail.com?subject=Da-Lee%20Website%20Quote" style="color:var(--gold);">Email me directly</a> or message me on Facebook like we've been doing — whatever's easiest.</p>
+  </section>
+  <section>
+    <form name="da-lee-response" method="POST" netlify data-netlify="true" netlify-honeypot="bot-field" action="/success.html" class="contact-form">
+      <input type="hidden" name="form-name" value="da-lee-response" />
+      <p class="hidden-field"><label>Don't fill this out: <input name="bot-field" /></label></p>
+      <div class="toggle-row" role="group" aria-label="Response type">
+        <button type="button" class="toggle-btn active" id="btn-accept">✅ I'm ready — let's do this<small>Accept a quote option below</small></button>
+        <button type="button" class="toggle-btn" id="btn-question">💬 I have a question first<small>Ask anything, no commitment</small></button>
+      </div>
+      <input type="hidden" name="response-type" id="response-type" value="accept" />
+      <div class="form-group">
+        <label for="r-name">Your name</label>
+        <input type="text" id="r-name" name="name" required />
+      </div>
+      <div class="accept-only show" id="accept-fields">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="r-option">Which option?</label>
+            <select id="r-option" name="option">
+              <option>Option A — Essential ($650)</option>
+              <option>Option B — Complete ($950)</option>
+              <option>Start with A, add portal later ($650 now)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="r-payment">Cash or trade mix?</label>
+            <select id="r-payment" name="payment-mix">
+              <option>All cash</option>
+              <option>Cash + trade (I'll suggest the split below)</option>
+              <option>Max trade ($250 cash minimum)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="r-start">When would you like to start?</label>
+          <select id="r-start" name="start-timing">
+            <option>ASAP — within 7 days (10% early-booking discount)</option>
+            <option>Within 2–3 weeks</option>
+            <option>Just exploring dates for now</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="r-message" id="r-message-label">Anything to add? (trade ideas, tweaks, must-haves)</label>
+        <textarea id="r-message" name="message" rows="5" placeholder="Tell me anything that'll help us start strong."></textarea>
+      </div>
+      <div class="cta-row center">
+        <button type="submit" class="btn" id="r-submit">Accept my quote →</button>
+      </div>
+    </form>
+  </section>
+</main>
+<footer><p>✨ The Elarion Collective · Jessie Marie · Wichita, KS</p></footer>
+<script>
+(function(){
+  var accept = document.getElementById('btn-accept');
+  var question = document.getElementById('btn-question');
+  var fields = document.getElementById('accept-fields');
+  var type = document.getElementById('response-type');
+  var submit = document.getElementById('r-submit');
+  var label = document.getElementById('r-message-label');
+  function setMode(mode){
+    var isAccept = mode === 'accept';
+    accept.classList.toggle('active', isAccept);
+    question.classList.toggle('active', !isAccept);
+    fields.classList.toggle('show', isAccept);
+    type.value = mode;
+    submit.textContent = isAccept ? 'Accept my quote →' : 'Send my question →';
+    label.textContent = isAccept ? 'Anything to add? (trade ideas, tweaks, must-haves)' : 'What would you like to know?';
+  }
+  accept.addEventListener('click', function(){ setMode('accept'); });
+  question.addEventListener('click', function(){ setMode('question'); });
+})();
+</script>
+</body>
+</html>
